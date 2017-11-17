@@ -12,7 +12,7 @@ namespace JenkinsTest
         {
             for(int i=0;i<12;i++)
             {
-                Console.WriteLine($"hello world {i}");
+                Console.WriteLine($"hello world {i} + Post-Build Action test Java app");
             }
         }
     }
