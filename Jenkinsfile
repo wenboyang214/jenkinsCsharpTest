@@ -4,4 +4,8 @@ node{
 	{
 		echo "hello world"
 	}
+	stage('test nuget.exe')
+	{
+		bat "${env.WORKSPACE}\\cicd\\nuget.exe help"
+	}
 }
